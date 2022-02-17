@@ -1,0 +1,10 @@
+print('Как вас зовут')
+name = input()
+print('Привет', name)
+print('Как ваша фамилия')
+name = input()
+print('как ваша отчество')
+name = input()
+print('Выведите следующее: фамилия-имя-отчество')
+name = input
+ 
