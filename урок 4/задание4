@@ -1,0 +1,13 @@
+r = str(input())
+k = str(input())
+n = int(input())
+
+if (int(k)<10):
+    k = '0'+str(k)
+
+s = round(n*float(str(r)+'.'+str(k)),2)
+
+x = int(s // 1)
+y = int(100*(s % 1))
+
+print('За '+str(n)+' мяча нужно заплатить '+str(x)+' рублей и '+str(y)+' копеек')
